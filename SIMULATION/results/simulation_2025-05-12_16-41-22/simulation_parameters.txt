@@ -1,0 +1,26 @@
+=== Ferrofluid Simulation Parameters ===
+Timestamp: 2025-05-12_16-41-22
+
+[System Parameters]
+Particles (N): 50
+Box size (m): 1.0e-6
+pH: 7.0
+Ionic strength (M): 0.01
+Temperature (K): 298.15
+External field (A/m): [0.0, 0.0, 10000.0]
+Viscosity (Pa·s): 0.001
+Surfactant thickness (m): 2.0e-9
+Particle radius (m): 1.0e-8
+Saturation magnetization (A/m): 480000.0
+
+[Monte Carlo Parameters]
+Total steps: 20000
+Equilibration steps: 4000
+Step size (m): 2.0e-9
+Target acceptance: 0.5
+Sampling interval: 10
+
+[Results Summary]
+Acceptance rate: 0.0%
+Final energy (J): -1.0053156006023295e-12
+Energy min/max (J): (-1.0053156657524268e-12, -1.546826398781582e-14)
